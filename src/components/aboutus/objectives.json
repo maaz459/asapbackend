@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_aboutus_objectives",
+  "info": {
+    "displayName": "objectives",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "objectiveText": {
+      "type": "string"
+    }
+  }
+}

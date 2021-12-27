@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_extras_multi_line_renderers",
+  "info": {
+    "displayName": "MultiLineRenderer",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "lineBreakBlock",
+        "textBlock"
+      ]
+    },
+    "bold": {
+      "type": "boolean"
+    },
+    "textcolor": {
+      "type": "string"
+    }
+  }
+}

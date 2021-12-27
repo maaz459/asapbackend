@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_aboutus_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.multi-line-renderer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

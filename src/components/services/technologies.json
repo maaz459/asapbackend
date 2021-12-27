@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

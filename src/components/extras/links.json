@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_extras_links",
+  "info": {
+    "displayName": "links",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkText": {
+      "type": "string"
+    },
+    "isButton": {
+      "type": "boolean"
+    }
+  }
+}

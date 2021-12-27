@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_aboutus_engineers",
+  "info": {
+    "displayName": "engineers",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

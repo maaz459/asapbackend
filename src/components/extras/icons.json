@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_extras_icons",
+  "info": {
+    "displayName": "icons",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    }
+  }
+}

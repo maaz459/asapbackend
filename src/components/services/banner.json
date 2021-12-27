@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_services_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "laptop-code"
+  },
+  "options": {},
+  "attributes": {
+    "quoteText": {
+      "type": "text"
+    },
+    "quoteBy": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
