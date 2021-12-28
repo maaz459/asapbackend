@@ -26,18 +26,19 @@
     "title": {
       "type": "string"
     },
-    "content1": {
-      "type": "dynamiczone",
-      "components": [
-        "component.image",
-        "component.text",
-        "component.video"
-      ]
-    },
     "bloggerName": {
       "type": "string"
     },
     "category": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "excerpt": {
       "type": "string"
     }
   }

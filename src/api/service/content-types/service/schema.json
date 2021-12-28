@@ -17,16 +17,10 @@
       "repeatable": false,
       "component": "services.banner"
     },
-    "bellowBannerText": {
-      "type": "string"
-    },
     "skills": {
       "type": "component",
       "repeatable": true,
       "component": "services.skills"
-    },
-    "stepsText": {
-      "type": "string"
     },
     "technologiesText": {
       "type": "string"
@@ -36,6 +30,21 @@
       "type": "component",
       "repeatable": true,
       "component": "services.technologies"
+    },
+    "belowBannerHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.underline-heading"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.steps"
+    },
+    "stepsHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.underline-heading"
     }
   }
 }

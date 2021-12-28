@@ -52,6 +52,28 @@
       "type": "component",
       "repeatable": true,
       "component": "home.awards"
+    },
+    "weDoHeading": {
+      "type": "string"
+    },
+    "supportButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.button"
+    },
+    "clientStoriesText": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.contact-form"
+    },
+    "contactTitle": {
+      "type": "string"
+    },
+    "contactText": {
+      "type": "string"
     }
   }
 }

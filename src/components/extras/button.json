@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_extras_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

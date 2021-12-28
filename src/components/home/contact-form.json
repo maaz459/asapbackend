@@ -21,12 +21,6 @@
     },
     "submitText": {
       "type": "string"
-    },
-    "text": {
-      "type": "string"
-    },
-    "heading": {
-      "type": "string"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_extras_underline_headings",
+  "info": {
+    "displayName": "underlineHeading",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "preHeading": {
+      "type": "string"
+    },
+    "underlineHeading": {
+      "type": "string"
+    },
+    "postHeading": {
+      "type": "string"
+    }
+  }
+}

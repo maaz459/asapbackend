@@ -12,10 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titleHeading": {
-      "type": "string"
-    },
-    "titleText": {
+    "text": {
       "type": "string"
     },
     "isVideo": {
@@ -41,6 +38,11 @@
       "type": "component",
       "repeatable": true,
       "component": "aboutus.engineers"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.underline-heading"
     }
   }
 }

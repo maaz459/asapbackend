@@ -12,6 +12,9 @@
     },
     "isButton": {
       "type": "boolean"
+    },
+    "linkAddress": {
+      "type": "string"
     }
   }
 }

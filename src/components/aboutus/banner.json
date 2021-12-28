@@ -2,24 +2,28 @@
   "collectionName": "components_aboutus_banners",
   "info": {
     "displayName": "banner",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string"
-    },
     "text": {
       "type": "component",
       "repeatable": true,
       "component": "extras.multi-line-renderer"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.underline-heading"
     }
   }
 }

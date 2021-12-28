@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactuses",
+  "info": {
+    "singularName": "contactus",
+    "pluralName": "contactuses",
+    "displayName": "contactus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.contact-form"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

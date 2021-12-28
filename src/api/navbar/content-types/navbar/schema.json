@@ -20,7 +20,7 @@
         "images"
       ]
     },
-    "linkText": {
+    "link": {
       "displayName": "links",
       "type": "component",
       "repeatable": true,

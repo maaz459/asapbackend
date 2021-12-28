@@ -2,11 +2,15 @@
   "collectionName": "components_extras_icons",
   "info": {
     "displayName": "icons",
-    "icon": "icons"
+    "icon": "icons",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
+      "type": "string"
+    },
+    "iconLink": {
       "type": "string"
     }
   }
