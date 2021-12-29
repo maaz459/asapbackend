@@ -17,14 +17,16 @@
       "repeatable": true,
       "component": "home.client-stories"
     },
-    "Heading": {
-      "type": "string"
-    },
     "button": {
       "displayName": "button",
       "type": "component",
       "repeatable": false,
       "component": "extras.button"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.underline-heading"
     }
   }
 }

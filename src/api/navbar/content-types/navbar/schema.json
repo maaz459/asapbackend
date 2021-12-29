@@ -31,6 +31,14 @@
       "type": "component",
       "repeatable": true,
       "component": "extras.icons"
+    },
+    "logo2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
     }
   }
 }

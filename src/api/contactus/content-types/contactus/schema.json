@@ -17,11 +17,13 @@
       "repeatable": false,
       "component": "home.contact-form"
     },
-    "heading": {
-      "type": "string"
-    },
     "text": {
       "type": "string"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "extras.underline-heading"
     }
   }
 }
