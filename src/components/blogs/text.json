@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blogs_texts",
+  "info": {
+    "displayName": "text",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preText": {
+      "type": "text"
+    },
+    "coloredText": {
+      "type": "text"
+    },
+    "postText": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "string"
+    }
+  }
+}

@@ -35,11 +35,17 @@
     "slug": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
     "excerpt": {
       "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blogs.heading",
+        "blogs.text",
+        "blogs.image",
+        "blogs.video"
+      ]
     }
   }
 }

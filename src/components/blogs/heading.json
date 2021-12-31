@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blogs_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preHeading": {
+      "type": "string"
+    },
+    "coloredHeading": {
+      "type": "text"
+    },
+    "postHeading": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "string"
+    }
+  }
+}
