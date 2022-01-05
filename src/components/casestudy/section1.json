@@ -2,7 +2,8 @@
   "collectionName": "components_casestudy_section1s",
   "info": {
     "displayName": "section1",
-    "icon": "file-word"
+    "icon": "file-word",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,7 +14,7 @@
       "type": "string"
     },
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "textColor": {
       "type": "string"
@@ -21,7 +22,7 @@
     "backgroundColor": {
       "type": "string"
     },
-    "upperImage": {
+    "image": {
       "type": "string"
     }
   }

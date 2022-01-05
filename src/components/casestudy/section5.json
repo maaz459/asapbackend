@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_casestudy_section5s",
+  "info": {
+    "displayName": "section5",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "centerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "leftImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "rightImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.multi-line-renderer"
+    }
+  }
+}

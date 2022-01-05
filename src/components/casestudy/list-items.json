@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_casestudy_list_items",
+  "info": {
+    "displayName": "listItems",
+    "icon": "cookie-bite"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

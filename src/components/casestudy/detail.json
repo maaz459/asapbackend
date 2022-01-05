@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_casestudy_details",
+  "info": {
+    "displayName": "detail",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

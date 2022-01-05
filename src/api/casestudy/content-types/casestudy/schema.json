@@ -14,7 +14,26 @@
   "attributes": {
     "slug": {
       "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "casestudy.section1",
+        "casestudy.section2",
+        "casestudy.section3",
+        "casestudy.section4",
+        "casestudy.section5"
+      ]
+    },
+    "thumbnail": {
+      "type": "dynamiczone",
+      "components": [
+        "component.video",
+        "component.image"
+      ]
+    },
+    "title": {
+      "type": "string"
     }
-
   }
 }

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_casestudy_section3s",
+  "info": {
+    "displayName": "section3",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "detail": {
+      "displayName": "detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "casestudy.detail"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
