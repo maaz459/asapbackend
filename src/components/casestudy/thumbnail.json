@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_casestudy_thumbnails",
+  "info": {
+    "displayName": "thumbnail",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
+    }
+  }
+}
