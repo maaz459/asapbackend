@@ -14,26 +14,7 @@
   "attributes": {
     "slug": {
       "type": "string"
-    },
-    "thumbnail": {
-      "type": "dynamiczone",
-      "components": [
-        "casestudy.thumbnail",
-        "blogs.video"
-      ]
-    },
-    "title": {
-      "type": "string"
-    },
-    "Sections": {
-      "type": "dynamiczone",
-      "components": []
-    },
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "casestudy.sections"
-      ]
     }
+
   }
 }
