@@ -2,7 +2,8 @@
   "collectionName": "components_casestudy_section4s",
   "info": {
     "displayName": "section4",
-    "icon": "list"
+    "icon": "list",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,28 +13,47 @@
     "headingColor": {
       "type": "string"
     },
-    "text": {
+    "s4_text": {
       "type": "string"
     },
     "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "upperImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "listItem": {
       "displayName": "listItems",
       "type": "component",
       "repeatable": true,
       "component": "casestudy.list-items"
+    },
+    "belowImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "string"
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_casestudy_section5s",
   "info": {
     "displayName": "section5",
-    "icon": "th-list"
+    "icon": "th-list",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,37 +14,47 @@
       "type": "string"
     },
     "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "centerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "rightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "text": {
       "type": "component",
       "repeatable": true,
       "component": "extras.multi-line-renderer"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "string"
     }
   }
 }

@@ -10,7 +10,7 @@
     "heading": {
       "type": "string"
     },
-    "text": {
+    "s2_text": {
       "type": "text"
     },
     "image": {
@@ -28,6 +28,9 @@
       "type": "string"
     },
     "textColor": {
+      "type": "string"
+    },
+    "marginTop": {
       "type": "string"
     }
   }

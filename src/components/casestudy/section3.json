@@ -13,12 +13,27 @@
       "repeatable": true,
       "component": "casestudy.detail"
     },
-    "image": {
+    "belowImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "upperImage": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "string"
     }
   }
 }

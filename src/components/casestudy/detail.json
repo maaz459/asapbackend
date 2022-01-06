@@ -15,6 +15,9 @@
     },
     "text": {
       "type": "text"
+    },
+    "textColor": {
+      "type": "string"
     }
   }
 }
