@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dynamic_proof_items",
+  "info": {
+    "displayName": "proofItem",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

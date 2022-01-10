@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dynamic_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "faqItem": {
+      "displayName": "faqItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic.faq-item"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

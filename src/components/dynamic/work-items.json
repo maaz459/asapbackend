@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dynamic_work_items",
+  "info": {
+    "displayName": "workItems",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "para1": {
+      "type": "string"
+    },
+    "para2": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

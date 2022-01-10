@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dynamic_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.links"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dynamic_faq_items",
+  "info": {
+    "displayName": "faqItem",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    }
+  }
+}
