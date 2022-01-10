@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamics",
+  "info": {
+    "singularName": "dynamic",
+    "pluralName": "dynamics",
+    "displayName": "dynamic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "pageSlug": {
+      "type": "uid",
+      "targetField": "slug",
+      "required": true
+    },
+    "ABOUT": {
+      "displayName": "ABOUT",
+      "type": "component",
+      "repeatable": false,
+      "component": "d-about.about"
+    },
+    "dIdea": {
+      "displayName": "DIDEA",
+      "type": "component",
+      "repeatable": false,
+      "component": "idea.didea"
+    }
+  }
+}
