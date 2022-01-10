@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_d_about_abouts",
+  "info": {
+    "displayName": "ABOUT",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "para2": {
+      "type": "text"
+    }
+  }
+}
