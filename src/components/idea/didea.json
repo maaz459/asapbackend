@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_idea_dideas",
+  "info": {
+    "displayName": "DIDEA",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "ideaSubSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "idea-sub-sec.idea-sub-sec"
+    }
+  }
+}

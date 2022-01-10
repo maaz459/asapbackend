@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_idea_d_ideas",
+  "info": {
+    "displayName": "D-IDEA",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "text"
+    },
+    "Sub": {
+      "displayName": "idea-sub-sec",
+      "type": "component",
+      "repeatable": true,
+      "component": "idea-sub-sec.idea-sub-sec"
+    }
+  }
+}
