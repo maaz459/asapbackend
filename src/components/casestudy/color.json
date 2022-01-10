@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_casestudy_colors",
+  "info": {
+    "displayName": "color",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "topColor": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_casestudy_members_sections",
+  "info": {
+    "displayName": "membersSection",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "members": {
+      "displayName": "members",
+      "type": "component",
+      "repeatable": true,
+      "component": "casestudy.members"
+    },
+    "membersBgColor": {
+      "type": "string"
+    }
+  }
+}

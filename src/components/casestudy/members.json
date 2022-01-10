@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_casestudy_members",
+  "info": {
+    "displayName": "members",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "numbers": {
+      "type": "string"
+    },
+    "sign": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

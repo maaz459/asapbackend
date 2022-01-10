@@ -2,7 +2,8 @@
   "collectionName": "components_extras_buttons",
   "info": {
     "displayName": "button",
-    "icon": "chalkboard-teacher"
+    "icon": "chalkboard-teacher",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,18 @@
       "type": "string"
     },
     "buttonLink": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "hoverTextColor": {
+      "type": "string"
+    },
+    "borderColor": {
+      "type": "string"
+    },
+    "hoverBgColor": {
       "type": "string"
     }
   }

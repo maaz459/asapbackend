@@ -34,6 +34,16 @@
     },
     "marginTop": {
       "type": "string"
+    },
+    "curvedTop": {
+      "type": "boolean"
+    },
+    "imageDirection": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ]
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_casestudy_text_and_bg_sections",
+  "info": {
+    "displayName": "textAndBgSection",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "multiText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.multi-line-renderer"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "textBgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "casestudy.quote"
+    }
+  }
+}

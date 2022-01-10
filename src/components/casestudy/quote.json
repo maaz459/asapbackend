@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_casestudy_quotes",
+  "info": {
+    "displayName": "quote",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "quoteText": {
+      "type": "string"
+    },
+    "quoteLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "quoteIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

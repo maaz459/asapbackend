@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_casestudy_buttons",
+  "info": {
+    "displayName": "buttons",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.button"
+    },
+    "sectionBgColor": {
+      "type": "string"
+    }
+  }
+}

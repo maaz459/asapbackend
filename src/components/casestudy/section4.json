@@ -54,6 +54,9 @@
     },
     "marginTop": {
       "type": "string"
+    },
+    "topCurved": {
+      "type": "boolean"
     }
   }
 }

@@ -17,7 +17,7 @@
       "unique": true,
       "required": true
     },
-    "sections": {
+    "design1": {
       "type": "dynamiczone",
       "components": [
         "casestudy.section1",
@@ -30,7 +30,8 @@
     "thumbnail": {
       "type": "dynamiczone",
       "components": [
-        "component.video"
+        "component.video",
+        "component.image"
       ]
     },
     "title": {
@@ -41,6 +42,34 @@
     },
     "nextLink": {
       "type": "string"
+    },
+    "design2": {
+      "type": "dynamiczone",
+      "components": [
+        "casestudy.section5",
+        "casestudy.buttons",
+        "casestudy.members-section",
+        "casestudy.section3",
+        "casestudy.section4",
+        "casestudy.text-and-bg-section"
+      ]
+    },
+    "design3": {
+      "type": "dynamiczone",
+      "components": [
+        "casestudy.section1",
+        "casestudy.text-and-bg-section",
+        "casestudy.section3",
+        "casestudy.section4"
+      ]
+    },
+    "designType": {
+      "type": "enumeration",
+      "enum": [
+        "Design1",
+        "Design2",
+        "Design3"
+      ]
     }
   }
 }
