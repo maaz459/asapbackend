@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamic_map_sections",
+  "info": {
+    "displayName": "mapSection",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "mobileNumber": {
+      "type": "string"
+    }
+  }
+}

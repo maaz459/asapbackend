@@ -12,51 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "heading": {
-      "type": "string"
-    },
-    "para": {
-      "type": "text"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
-    "pageSlug": {
-      "type": "uid",
-      "targetField": "slug",
-      "required": true
-    },
-    "ABOUT": {
-      "displayName": "ABOUT",
+    "banner": {
+      "displayName": "banner",
       "type": "component",
       "repeatable": false,
-      "component": "d-about.about"
+      "component": "dynamic.banner"
     },
-    "dIdea": {
-      "displayName": "DIDEA",
-      "type": "component",
-      "repeatable": false,
-      "component": "idea.didea"
+    "dynamicSections": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic.about",
+        "idea.didea",
+        "dynamic.work-section",
+        "dynamic.faq",
+        "dynamic.proof-section",
+        "dynamic.award-section",
+        "dynamic.news",
+        "dynamic.map-section",
+        "dynamic.footer"
+      ]
     }
   }
 }

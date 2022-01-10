@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dynamic_proof_sections",
+  "info": {
+    "displayName": "proofSection",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "alignText": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "proofItem": {
+      "displayName": "proofItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic.proof-item"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamic_award_sections",
+  "info": {
+    "displayName": "awardSection",
+    "icon": "screwdriver",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

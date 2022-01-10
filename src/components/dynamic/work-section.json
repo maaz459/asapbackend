@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_dynamic_work_sections",
+  "info": {
+    "displayName": "workSection",
+    "icon": "arrow-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "workItem": {
+      "displayName": "workItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic.work-items"
+    }
+  }
+}

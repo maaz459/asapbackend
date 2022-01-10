@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamic_news",
+  "info": {
+    "displayName": "news",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "para": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
