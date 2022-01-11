@@ -12,6 +12,9 @@
     },
     "para": {
       "type": "string"
+    },
+    "color": {
+      "type": "string"
     }
   }
 }

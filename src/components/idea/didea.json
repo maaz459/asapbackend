@@ -26,6 +26,15 @@
     },
     "btnText": {
       "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
     }
   }
 }

@@ -2,23 +2,26 @@
   "collectionName": "components_dynamic_banners",
   "info": {
     "displayName": "banner",
-    "icon": "ankh"
+    "icon": "ankh",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "heading": {
       "type": "string"
@@ -30,6 +33,15 @@
       "type": "string"
     },
     "btnLink": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "headingColor": {
+      "type": "string"
+    },
+    "paraColor": {
       "type": "string"
     }
   }
