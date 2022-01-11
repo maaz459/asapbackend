@@ -21,6 +21,9 @@
       "type": "component",
       "repeatable": true,
       "component": "dynamic.work-items"
+    },
+    "workBgColor": {
+      "type": "string"
     }
   }
 }
