@@ -15,6 +15,9 @@
     },
     "color": {
       "type": "string"
+    },
+    "paraColor": {
+      "type": "string"
     }
   }
 }
