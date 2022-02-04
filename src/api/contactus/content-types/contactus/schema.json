@@ -29,6 +29,18 @@
       "type": "component",
       "repeatable": false,
       "component": "component.meta"
+    },
+    "mapImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "footerPagesMapImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
