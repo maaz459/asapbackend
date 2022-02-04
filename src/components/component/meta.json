@@ -1,0 +1,78 @@
+{
+  "collectionName": "components_component_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "locale": {
+      "type": "string",
+      "default": "en_US"
+    },
+    "type": {
+      "type": "string",
+      "default": "website"
+    },
+    "title": {
+      "type": "string",
+      "default": "| neben solutions"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "default": "https://nebensolutions.ca/"
+    },
+    "siteName": {
+      "type": "string",
+      "default": "Neben Solutions"
+    },
+    "articlePublisher": {
+      "type": "string",
+      "default": "https://www.facebook.com/nebensolutions"
+    },
+    "articleModifiedtime": {
+      "type": "string",
+      "default": "2021-12-17T20:33:50+00:00"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageWidth": {
+      "type": "string",
+      "default": "1800"
+    },
+    "imageHeight": {
+      "type": "string",
+      "default": "1000"
+    },
+    "imageType": {
+      "type": "string",
+      "default": "image/jpeg"
+    },
+    "twitterCard": {
+      "type": "string",
+      "default": "summary_large_image"
+    },
+    "twitterSite": {
+      "type": "string",
+      "default": "@nebensolutions"
+    },
+    "twitterLabel1": {
+      "type": "string",
+      "default": "Est. reading time"
+    },
+    "twitterData1": {
+      "type": "string",
+      "default": "8 minutes"
+    }
+  }
+}

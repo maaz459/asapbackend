@@ -74,6 +74,17 @@
     },
     "contactText": {
       "type": "string"
+    },
+    "casestudies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::casestudy.casestudy"
+    },
+    "meta": {
+      "displayName": "meta",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta"
     }
   }
 }

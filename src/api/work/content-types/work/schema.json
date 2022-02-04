@@ -27,6 +27,16 @@
       "type": "component",
       "repeatable": false,
       "component": "extras.underline-heading"
+    },
+    "casestudies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::casestudy.casestudy"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta"
     }
   }
 }

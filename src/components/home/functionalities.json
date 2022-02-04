@@ -15,6 +15,13 @@
     },
     "type": {
       "type": "string"
+    },
+    "iconImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

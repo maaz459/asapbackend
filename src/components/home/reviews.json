@@ -2,7 +2,8 @@
   "collectionName": "components_home_reviews",
   "info": {
     "displayName": "reviews",
-    "icon": "chart-bar"
+    "icon": "chart-bar",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,11 @@
     },
     "reviewerJobTitle": {
       "type": "string"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.multi-line-renderer"
     }
   }
 }

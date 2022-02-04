@@ -45,6 +45,11 @@
       "type": "component",
       "repeatable": false,
       "component": "extras.underline-heading"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta"
     }
   }
 }

@@ -46,6 +46,11 @@
         "blogs.image",
         "blogs.video"
       ]
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta"
     }
   }
 }

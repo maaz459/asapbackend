@@ -35,6 +35,11 @@
         "dynamic.map-section",
         "dynamic.footer"
       ]
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta"
     }
   }
 }
